@@ -72,7 +72,7 @@ CREATE TABLE `Categories` (
 
 LOCK TABLES `Categories` WRITE;
 
-INSERT INTO `Categories` VALUES (1,1,'Test',25),(2,1,'Quiz',15),(3,2,'Lab',10),(4,3,'Written Assignments',50);
+INSERT INTO `Categories` VALUES (1,1,'Test',25),(2,1,'Quiz',15),(3,1,'Lab',10),(4,1,'Written Assignments',50),(5,2,'Test',25),(6,2,'Quiz',15),(7,2,'Lab',10),(8,2,'Written Assignments',50),(9,3,'Test',25),(9,3,'Quiz',15),(10,3,'Lab',10),(11,3,'Written Assignments',50);
 
 
 UNLOCK TABLES;
